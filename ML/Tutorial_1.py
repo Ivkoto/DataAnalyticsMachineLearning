@@ -5,7 +5,8 @@ import matplotlib.pyplot as plt
 import seaborn as sb
 
 from IPython.display import Image
-Image(filename=r'C:\Users\kostovi\source\Python_Mimi\ML\Tutorial_1\iris.png', width=600, height=300)
+# Image class from the IPython.display module is used to display an image in a Jupyter Notebook
+Image(filename=r'C:\Users\kostovi\source\DataAnalyticsMachineLearning\ML\Tutorial_1\iris.png', width=600, height=300)
 
 wg.filterwarnings('ignore')
 
@@ -108,6 +109,83 @@ train_data, test_data, train_label, test_label = train_test_split(
 # Print the shape of training and testing data along with its labels.
 print(train_data.shape, train_label.shape, test_data.shape, train_label.shape)
 
-Image(filename=r'C:\Users\kostovi\source\Python_Mimi\ML\Tutorial_1\Im1.png', width=400, height=400)
+
+### The KNN Model ###
+
+# Type: KNN is a supervised learning algorithm used for classification and regression tasks.
+
+# The KNN model stores the entire training dataset in memory. When a prediction or classification 
+# is required, the algorithm calculates the distances between the new data point and 
+# all data points in the training set.
+
+# The KNN model stores the entire training dataset in memory. When a prediction or classification 
+# is required, the algorithm calculates the distances between the new data point and all data points 
+# in the training set.
+# The model requires setting the value of K, which determines how many neighbors to consider
+# when making predictions. The choice of K can impact the model's performance.
+
+# K-Nearest Neighbor Classifier:
+# In the context of classification, the KNN algorithm is often referred to as the "K-Nearest Neighbor Classifier.
+# To use KNN for classification, you provide it with labeled training data, where each data point has an associated class label.
+# When making a classification prediction for a new data point, KNN identifies the K nearest neighbors from the training data 
+# and assigns the class label that is most common among those neighbors to the new data point.
+
+# Image class from the IPython.display module is used to display an image in a Jupyter Notebook
+Image(filename=r'C:\Users\kostovi\source\DataAnalyticsMachineLearning\ML\Tutorial_1\Im1.png', width=400, height=400)
 
 from sklearn.neighbors import KNeighborsClassifier
+
+neighbors = np.arange(1, 9) # number of neighbors
+train_accuracy = np.zeros(len(neighbors))    # Declare and initialise the matrix
+test_accuracy = np.zeros(len(neighbors))     # Declare and initialise the matrix
+
+for i,k in enumerate(neighbors):              # for loop that checks the model for neighbor values 1, 2, 3, ..., 9 
+  knn = KNeighborsClassifier(n_neighbors = k) # Initialise an object knn using KNeighborsClassifier method
+
+  #Fit the model
+  knn.fit(train_data, train_label)    # Call fit method to implement the ML KNeighborsClassifier model
+
+  #Compute accuracy on the training set
+  train_accuracy[i] = knn.score(train_data, train_label)  # Save the score value in the train_accuracy array
+  
+  #Compute accuracy on the test set
+  test_accuracy[i] = knn.score(test_data, test_label)   # Save the score value in the train_accuracy array
+
+# Delcare the size of the array
+plt.figure(figsize = (10, 6))
+plt.title('KNN accuracy with varying number of neighbors', fontsize = 20)
+plt.plot(neighbors, test_accuracy, label = 'Testing Accuracy')
+plt.plot(neighbors, train_accuracy, label = 'Training accuracy')
+plt.legend(prop = {'size': 20})
+plt.xlabel('Number of neighbors', fontsize = 20)
+plt.ylabel('Accuracy', fontsize = 20)
+plt.xticks(fontsize = 20)
+plt.yticks(fontsize = 20)
+plt.show()
+
+# Declare and initialise an object 'KNeighborsClassifier' with 3 neighbors
+
+knn2 = KNeighborsClassifier(n_neighbors = 3)
+knn2.fit(train_data, train_label)
+train_accuracy2 = knn.score(train_data, train_label)
+test_accuracy2 = knn.score(test_data, test_label)
+
+# Display the test accuracy
+print(test_accuracy2)
+
+# A confusion matrix is mainly used to describe the performance of ML model on the test data for which the true values or
+# labels are known. Scikit-learn provides a function that calculates the confusion matrix for you.
+# import library for confusion matrix
+from sklearn.metrics import confusion_matrix
+
+# Predict the results by calling a method 'predict()'
+prediction = knn.predict(test_data)
+
+# Display the confusion matrix
+print(confusion_matrix(test_label, prediction))
+
+# import the library classification_report
+from sklearn.metrics import classification_report
+
+# Display the report
+print(classification_report(test_label, prediction))
