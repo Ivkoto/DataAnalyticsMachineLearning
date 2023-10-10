@@ -6,7 +6,7 @@ import seaborn as sb
 
 from IPython.display import Image
 # Image class from the IPython.display module is used to display an image in a Jupyter Notebook
-Image(filename=r'C:\Users\kostovi\source\DataAnalyticsMachineLearning\ML\Tutorial_1\iris.png', width=600, height=300)
+Image(filename=r'C:\Users\Ivaylo_K\source\github\DataAnalyticsMachineLearning\ML\Tutorial_1\iris.png', width=600, height=300)
 
 wg.filterwarnings('ignore')
 
@@ -131,7 +131,7 @@ print(train_data.shape, train_label.shape, test_data.shape, train_label.shape)
 # and assigns the class label that is most common among those neighbors to the new data point.
 
 # Image class from the IPython.display module is used to display an image in a Jupyter Notebook
-Image(filename=r'C:\Users\kostovi\source\DataAnalyticsMachineLearning\ML\Tutorial_1\Im1.png', width=400, height=400)
+Image(filename=r'C:\Users\Ivaylo_K\source\github\DataAnalyticsMachineLearning\ML\Tutorial_1\Im1.png', width=400, height=400)
 
 from sklearn.neighbors import KNeighborsClassifier
 

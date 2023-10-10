@@ -6,3 +6,8 @@ https://maps.pobal.ie/WebApps/DeprivationIndices/index.html?fbclid=IwAR1VsBhFKwP
 
 **Annual Population Estimates:**\
 https://data.cso.ie/
+
+**Population and Migration Estimates, April 2023**\
+https://www.cso.ie/en/releasesandpublications/ep/p-pme/populationandmigrationestimatesapril2023/ \
+**Key Findings**\
+https://www.cso.ie/en/releasesandpublications/ep/p-pme/populationandmigrationestimatesapril2023/keyfindings/
