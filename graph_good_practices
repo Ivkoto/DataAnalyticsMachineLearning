@@ -1,0 +1,5 @@
+numerical data can be categorical
+when visualizing amounts - bars (vetically or horizontally) and dots (in the place of the bar)
+if there are more than two categories - we can group the bars (stacked bars or grouped bars), however if we have more than 3 categories don't use bars - becoming very confusing 
+for distributions we use histograms, density plot, cumulative density, quantile-quantile(q-q)
+  
