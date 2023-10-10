@@ -11,3 +11,5 @@ geospatial data - map, choropleth, cartogram, cartogram heatmap
 uncertanty - perhaps we have the mean (standard deviation can be used as well) value of a particular numerical value, but there will always be values which will be less or more than the mean value and we show the mean value 
            - we use error bars, 2d error bars, graded error bars, confident strips, eyes, confidence band
 
+sns.scatterplot(data=df, x='body_mass_g', y='bill_length_mm', alpha=0.7, hue='species', size='gender') - alpha is for opacity, size is for the size of the dot
+move the legend outside of the figure itself - plt.legend(loc='upper right', bbox_to_anchor=(1.2, 1));
