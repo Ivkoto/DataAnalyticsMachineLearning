@@ -2,4 +2,12 @@ numerical data can be categorical
 when visualizing amounts - bars (vetically or horizontally) and dots (in the place of the bar)
 if there are more than two categories - we can group the bars (stacked bars or grouped bars), however if we have more than 3 categories don't use bars - becoming very confusing 
 for distributions we use histograms, density plot, cumulative density, quantile-quantile(q-q)
-  
+stacked histograms, overlapping densities, ridgeline plot - very careful with those, difficult to see the data
+think about cultural differencies - the colors for gender for example, or let's say somehwere red is considered lucky and somewhere else is associated to something bad; when it comes to the gender we have to be very careful and aware of what we are doing
+proportions - pie chart, bars, stacked bars 
+when proportions are specified accoriding to multiple grouping variables (cats, dog, mouse), then mosaic plot, treempas or parallel sets 
+x-y relationships - scatterplot, bubble chart, paired scatterplot, slopegraph
+geospatial data - map, choropleth, cartogram, cartogram heatmap
+uncertanty - perhaps we have the mean (standard deviation can be used as well) value of a particular numerical value, but there will always be values which will be less or more than the mean value and we show the mean value 
+           - we use error bars, 2d error bars, graded error bars, confident strips, eyes, confidence band
+
