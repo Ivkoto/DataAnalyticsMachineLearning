@@ -1,0 +1,32 @@
+
+- in the jypiter notebook za zaglaviqta
+    <a id="Table_of_contents"> </a>
+
+  Import libraries i posle pak 
+    <a id="Table_of_contents"> </a> za da slojim kato link
+
+
+- Google Advanced Data Analytics Professional Certificate
+  https://www.coursera.org/professional-certificates/google-advanced-data-analytics
+
+  # taq kaza che sledva vsichko ot tam i taka si pishe neshtata
+
+
+- 
+# 1. Create replacement_dict
+
+### YOUR CODE HERE ###
+replacement_dict = {'Artificial Intelligence': 'Artificial intelligence',
+                   'Data management and analytics': 'Data management & analytics',
+                   'FinTech': 'Fintech'
+                   }
+
+# 2. Replace the incorrect values in the Industry column
+
+### YOUR CODE HERE ###
+companies['Industry'] = companies['Industry'].replace(replacement_dict)
+
+# 3. Verify that there are no longer any elements in Industry that are not in industry_list
+
+### YOUR CODE HERE ###
+set(companies['Industry']) - set(industry_list)
