@@ -1,0 +1,10 @@
+Poisson distribution is used when we consider events in a certain period of time or a physical space where we don't have any defined limit. Example - number of patients who arrive
+at the emergency room between 6AM and 7AM; numbers of calls answered by an agent in a call center; 
+
+here is the structure of the random variable for poisson distribution x = number of accidents(number of elements) in the corner of CCT(specific space) per day (specific time)
+parameters of the distribution:
+        λ = average or expected value - this number may vary according to space/time frame
+The expected value of a poisson variable is λ
+The variance of this distribution is also λ (lambda)
+
+
