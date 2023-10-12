@@ -8,3 +8,4 @@ The expected value of a poisson variable is λ
 The variance of this distribution is also λ (lambda)
 
 
+When it's a sample of the data and we know the exact number we use binomial distribution.
