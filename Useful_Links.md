@@ -17,3 +17,7 @@ https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSe
 
 **Google Advanced Data Analytics Professional Certificate**\
 https://www.coursera.org/professional-certificates/google-advanced-data-analytics
+
+
+**World Population EDA and Prediction - Python**
+https://www.kaggle.com/code/jimmyoboni/world-population-eda-and-prediction-python
