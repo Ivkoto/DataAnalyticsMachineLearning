@@ -21,3 +21,5 @@ https://www.coursera.org/professional-certificates/google-advanced-data-analytic
 
 **World Population EDA and Prediction - Python**
 https://www.kaggle.com/code/jimmyoboni/world-population-eda-and-prediction-python
+
+help with the writing https://jenni.ai/
