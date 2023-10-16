@@ -1,2 +1,0 @@
-# reading data from URL using pandas
-  
