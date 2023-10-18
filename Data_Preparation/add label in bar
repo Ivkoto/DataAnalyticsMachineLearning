@@ -6,3 +6,15 @@ def addlabels(x, y, labels):
     '''
     for i in range(len(x)):
         plt.text(i, y[i], labels[i], ha = 'center', va = 'bottom')
+
+
+plot the bar with labels
+
+plt.figure(figsize = (15, 5))
+plt.bar(x = df_by_quarter['quarter'], height = df_by_quarter['number_of_strikes'])
+addlabels(df_by_quarter['quarter'], df_by_quarter['number_of_strikes'], df_by_quarter['number_of_strikes_formatted'])
+plt.plot()
+plt.xlabel('Quarter')
+plt.ylabel('Number of lightning strikes')
+plt.title('Number of lightning strikes per quarter (2016-2018)')
+plt.show()
