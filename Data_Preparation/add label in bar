@@ -1,0 +1,8 @@
+how to add labels: 
+
+def addlabels(x, y, labels):
+    '''
+    Iterates over data and plots text labels above each bar of bar graph.
+    '''
+    for i in range(len(x)):
+        plt.text(i, y[i], labels[i], ha = 'center', va = 'bottom')
