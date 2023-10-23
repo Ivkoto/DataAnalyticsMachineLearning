@@ -24,3 +24,6 @@ https://www.kaggle.com/code/jimmyoboni/world-population-eda-and-prediction-pytho
 
 **help with the writing**
 https://jenni.ai/
+
+**SalesForce-learn-correlation-and-regression** \
+https://trailhead.salesforce.com/content/learn/modules/correlation-and-regression/examine-correlation-in-data?fbclid=IwAR1av0sRn8vj0P_DnUKfz5mJAOfNZMLDyFvqaa50OSoNvLDNxnBm0nerLKw
