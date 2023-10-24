@@ -27,3 +27,8 @@ https://jenni.ai/
 
 **SalesForce-learn-correlation-and-regression** \
 https://trailhead.salesforce.com/content/learn/modules/correlation-and-regression/examine-correlation-in-data?fbclid=IwAR1av0sRn8vj0P_DnUKfz5mJAOfNZMLDyFvqaa50OSoNvLDNxnBm0nerLKw
+
+**Maybe helpfull projects**
+https://github.com/sarthaktyagi-505/Machine-Learning-101/tree/master
+
+https://github.com/kartika-nair/Population-Analysis/blob/master/PopulationAnalysis.ipynb?fbclid=IwAR2k8SO3_MiqdLbBzIcM_sxiqNbQWlUWhUB_auhrO3rq0j-prsgsjylNoxM
