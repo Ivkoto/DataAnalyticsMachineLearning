@@ -32,3 +32,6 @@ https://trailhead.salesforce.com/content/learn/modules/correlation-and-regressio
 https://github.com/sarthaktyagi-505/Machine-Learning-101/tree/master
 
 https://github.com/kartika-nair/Population-Analysis/blob/master/PopulationAnalysis.ipynb?fbclid=IwAR2k8SO3_MiqdLbBzIcM_sxiqNbQWlUWhUB_auhrO3rq0j-prsgsjylNoxM
+
+**Pandas functions**
+https://pandas.pydata.org/docs/reference/frame.html
