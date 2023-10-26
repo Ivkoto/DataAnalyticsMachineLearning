@@ -35,3 +35,6 @@ https://github.com/kartika-nair/Population-Analysis/blob/master/PopulationAnalys
 
 **Pandas functions**
 https://pandas.pydata.org/docs/reference/frame.html
+
+
+https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf
