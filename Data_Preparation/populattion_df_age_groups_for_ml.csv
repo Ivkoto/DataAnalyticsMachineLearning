@@ -1,4 +1,4 @@
-STATISTIC Label,Year,Single Year of Age,C02199V02655,Sex,UNIT,VALUE,Age Group
+STATISTIC Label,Year,Single Year of Age,GenderCode,Sex,UNIT,VALUE,Age Group
 Population estimates from 1926,1996,0,1,Male,Number,25231,0-14 years old
 Population estimates from 1926,1996,0,2,Female,Number,23623,0-14 years old
 Population estimates from 1926,1996,1,1,Male,Number,24963,0-14 years old
