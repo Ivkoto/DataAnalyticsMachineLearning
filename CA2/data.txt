@@ -2,3 +2,4 @@ https://data.gov.ie/dataset/nta56-reasons-for-not-using-bus-services-more-freque
 https://www.statbank.dk/3115 - Denmark data
 https://ec.europa.eu/eurostat/databrowser/view/road_pa_buscoa/default/table?lang=en - CHECK THIS 
 https://www.opendata.dk/search?q=bicycle&filter=&sort=score%3Adesc - this might be it
+https://www.kaggle.com/datasets/emilhvitfeldt/bike-traffic-counts-in-copenhagen/
