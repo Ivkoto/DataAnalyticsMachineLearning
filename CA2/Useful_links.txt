@@ -3,3 +3,4 @@ https://github.com/mzmalkoc2023034/S2CA2_2023034/blob/main/S2CA2.ipynb
 https://github.com/jmdtanalyst/MSC_DA_CA2_Transport_Ireland
 https://github.com/jojowdata/Transport-Data/blob/main/Assignment%202.R
 https://github.com/2020491/MSC_DA_CA2/blob/main/Sentiment%20Analysis%20Cranberries.ipynb
+https://github.com/sba22166/CCT_MSC_DA_CA2/blob/main/jupyter-notebooks/Stats.ipynb
