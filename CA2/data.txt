@@ -9,3 +9,4 @@ https://www.nationaltransport.ie/wp-content/uploads/2021/12/Bus-and-Rail-Statist
 https://www.opendata.dk/city-of-copenhagen/cykeldata - bicycle data
 
 https://data.gov.ie/dataset/cycletrack-and-buslane-survey-2007-greater-dublin-area - SURVEY but I am not sure in what format we should download the data - please check if you can. It downloads a whole zip with a lot of files.
+https://data.gov.ie/dataset/cycle-network-survey - SURVEY
